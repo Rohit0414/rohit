@@ -1,0 +1,96 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+}
+
+.head1 div {
+    margin-right: 30px;
+}
+
+.head {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 25px;
+    padding: 25px;
+}
+
+.head1 {
+    font-size: large;
+    display: flex;
+}
+
+.head2 {
+    display: block !important;
+}
+
+.head2 li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.content2 {
+    display: flex;
+}
+
+.content2 div {
+    margin-top: 33px;
+    font-size: xx-large;
+}
+
+.content2 p {
+    font-size: small;
+}
+
+.content2 img {
+    padding-top: 15px;
+    width: 80px;
+    height: 80px;
+}
+
+.content {
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content3 li a {
+    text-decoration: none;
+    color: rgb(156, 152, 152);
+}
+
+.content3 li a:hover {
+    color: lightblue;
+
+}
+
+.content3 li a button {
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.content3 {
+    display: flex;
+
+}
+
+.content3 li {
+    text-decoration: none;
+
+    display: inline-flex;
+    width: 140px;
+    padding-top: 40px;
+}
+.button a:hover{
+    color: lightblue;
+}

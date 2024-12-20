@@ -1,0 +1,622 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.header img {
+    width: 20px;
+    color: white;
+}
+
+.head img {
+    width: 20px;
+
+
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(89, 82, 82);
+}
+
+.header2 img {
+
+    width: 50px;
+
+
+}
+
+.button {
+    display: flex;
+}
+
+.button li {
+    text-decoration: none;
+
+    display: inline-flex;
+    padding-left: 50px;
+}
+
+.button li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.button li a:hover {
+    background-color: orangered;
+}
+
+.buttonh2 button {
+    background-color: orangered;
+    color: white;
+
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logis {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./cargo.jpg);
+    display: flex;
+    height: 350px;
+    text-align: center;
+    background-color: rgb(108, 103, 103);
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-position-y: -45px;
+}
+
+.logis1 {
+
+    color: orangered;
+    font-size: 30px;
+}
+
+.logis2 {
+    font-size: 50px;
+    color: white;
+}
+
+.logis3 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.logis3 button {
+    background-color: orangered;
+    color: white;
+}
+
+.logis3 input {
+    font-size: 30px;
+}
+
+.gap {
+    height: 65px;
+}
+
+.logistics {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logistics1 img {
+    width: 500px;
+
+
+}
+
+.logistics1 h3 {
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+}
+
+.logistics1 {
+    background-color: orangered;
+}
+
+.logistics2 p {
+    font-size: 60px;
+
+}
+
+.logistics2 h2 {
+    color: orangered;
+}
+
+.content {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.content1 h2 {
+    color: orangered;
+}
+
+.content1 p {
+    font-size: 90px;
+}
+
+.content2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    background-color: orangered;
+    width: 29%;
+    height: 270px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.content2 button {
+    width: 69%;
+    height: 40px;
+    color: white;
+    background-color: black;
+}
+
+.content2 input {
+    width: 300px;
+    height: 40px;
+}
+
+.content6 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.content6 p {
+    font-size: 20px;
+}
+
+.content6 h2 {
+    color: orangered;
+    font-size: 40px;
+}
+
+.container {
+    text-align: center;
+}
+
+.container p {
+    color: orangered;
+    font-size: x-large;
+}
+
+.container h2 {
+    font-size: 45px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+
+.container1 a {
+    color: orangered;
+    text-decoration: none;
+}
+
+.container1 p {
+    font-size: large;
+}
+
+.container2 img {
+
+    width: 30px;
+
+}
+
+.container2 h5 {
+    font-size: x-large;
+    border: 5px solid orangered;
+    background-color: orangered;
+    text-align: center;
+}
+
+.container2 p {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.container3 img {
+
+    width: 30px;
+}
+
+.container3 h5 {
+    border: 5px solid orangered;
+    background-color: orangered;
+    text-align: center;
+    font-size: x-large;
+}
+
+.container3 p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container4 img {
+
+    width: 30px;
+
+}
+
+
+.container5 img {
+
+    width: 30px;
+}
+
+.container5 h5 {
+    border: 5px solid orangered;
+    background-color: orangered;
+    text-align: center;
+    font-size: x-large;
+}
+
+.container5 p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container4 h5 {
+    border: 5px solid orangered;
+    background-color: orangered;
+    text-align: center;
+    font-size: x-large;
+}
+
+.container4 p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.material {
+    display: flex;
+    justify-content: center;
+}
+
+.material1 img {
+    height: 500px;
+    width: 400px;
+}
+
+.material2 {
+    margin-top: 65px;
+    margin-left: 20px;
+
+}
+
+.material2 h5 {
+    color: orangered;
+    font-size: larger;
+}
+
+.material2 h3 {
+    font-size: 50px;
+}
+
+.material2 ul {
+    margin-left: 20px;
+}
+
+.material2 button {
+    font-size: large;
+    color: white;
+    background-color: orangered;
+    border-block: none;
+    height: 30px;
+    width: 135px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title p {
+    font-size: 50px;
+}
+
+.title h4 {
+    color: orangered;
+}
+
+.title1 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.title2 h2 {
+    font-size: 60px;
+}
+
+.title2 {
+    text-align: center;
+    background-color: lightgray;
+}
+
+.title5 {
+    font-size: 40px;
+    width: 400px;
+
+    background-color: orangered;
+    text-align: center;
+}
+
+.title2 button {
+    text-decoration: none;
+    background-color: orangered;
+    font-size: x-large;
+    margin-bottom: 50px;
+    border-block: none;
+}
+
+.title3 {
+    text-align: center;
+    background-color: lightgray;
+}
+
+.title3 h2 {
+    font-size: 60px;
+}
+
+.title6 {
+    font-size: 40px;
+    width: 400px;
+
+    background-color: orangered;
+    text-align: center;
+}
+
+.title3 button {
+    text-decoration: none;
+    background-color: orangered;
+    font-size: x-large;
+    margin-bottom: 50px;
+    border-block: none;
+}
+
+.title4 {
+    text-align: center;
+    background-color: lightgray;
+}
+
+.title4 h2 {
+    font-size: 60px;
+}
+
+.title7 {
+    font-size: 40px;
+    width: 400px;
+
+    background-color: orangered;
+    text-align: center;
+}
+
+.title4 button {
+    text-decoration: none;
+    background-color: orangered;
+    font-size: x-large;
+    margin-bottom: 50px;
+    border-block: none;
+}
+
+.management {
+    text-align: center;
+}
+
+.management p {
+    font-size: 50px;
+}
+
+.management h4 {
+    font-size: large;
+    color: orangered;
+}
+
+.management1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.management2 img {
+    width: 300px;
+    height: 400px;
+}
+
+.management2 {
+    text-align: center;
+    background-color: orangered;
+}
+
+.management2 h4 {
+    background-color: lightgray;
+    font-size: xx-large;
+}
+
+.management2 p {
+    background-color: lightgray;
+    font-size: large;
+}
+
+.management3 {
+    text-align: center;
+    background-color: orangered;
+}
+
+.management3 img {
+    width: 300px;
+    height: 400px;
+}
+
+.management4 {
+    text-align: center;
+    background-color: orangered;
+}
+
+.management4 img {
+    width: 300px;
+    height: 400px;
+}
+
+.management5 {
+    text-align: center;
+    background-color: orangered;
+}
+
+.management5 img {
+    width: 300px;
+    height: 400px;
+}
+.management1 h4,p{
+    padding: 5px;
+}
+
+.management3 h4 {
+    background-color: lightgray;
+    font-size: xx-large;
+}
+
+.management3 p {
+    background-color: lightgray;
+    font-size: large;
+}
+
+.management4 h4 {
+    background-color: lightgray;
+    font-size: xx-large;
+}
+
+.management4 p {
+    background-color: lightgray;
+    font-size: large;
+}
+
+.management5 h4 {
+    background-color: lightgray;
+    font-size: xx-large;
+}
+
+.management5 p {
+    background-color: lightgray;
+    font-size: large;
+}
+
+.blog {
+    text-align: center;
+}
+
+.blog p {
+    font-size: 60px;
+
+}
+
+.blog h4 {
+    color: orangered;
+    font-size: large;
+}
+
+.blog1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.blog2 {
+    background-color: lightgray;
+    margin-right: 20px;
+}
+
+.blog2 img {
+    width: 430px;
+    height: 450px;
+    margin-bottom: ;
+}
+
+.blog2,
+.blog3 div {
+
+    padding: 20px;
+}
+
+.blog2 div img {
+    width: 20px;
+    height: 20px;
+}
+
+.end img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.blog1 a {
+    text-decoration: none;
+    color: orangered;
+
+}
+
+.footer {
+    text-align: left;
+    color: white;
+    background-color: rgb(40, 38, 38);
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer2 {
+    margin-bottom: 40px;
+}
+
+.footer1 img {
+    border-radius: 5px;
+    width: 20px;
+    margin-bottom: -5px;
+
+}
+
+.footer h3 {
+    margin-top: 40px;
+    color: orangered;
+}
+
+.footer3 input {
+    width: 320px;
+    height: 35px;
+}
+
+.footer3 button {
+    color: white;
+    background-color: orangered;
+    text-decoration: none;
+    height: 40px;
+    width: 70px;
+}
+
+.footer4 {
+    display: flex;
+}

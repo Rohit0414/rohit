@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student registration form using table in html</title>
+    <style type="text/css">
+        h2 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 30px;
+
+            font-style: normal;
+            font-weight: bolder;
+            color: blueviolet;
+            text-align: center;
+            text-decoration: dotted;
+        }
+
+        table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: maroon;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: bold;
+            background: linear-gradient(rgb(52, 132, 149), rgb(120, 77, 120));
+        }
+
+        table.inner {
+            border: 10px saddlebrown;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 align="center">student registration form using in html</h2>
+    <form>
+        <table align="center" border="5px solid black" cellpadding="10">
+
+            <tr>
+                <td>first name</td>
+                <td><input type="text" name="first name" maxlength="50" placeholder="Rohit" />
+                    [max 50 characters allowed]
+                </td>
+            </tr>
+
+            <tr>
+                <td>last name</td>
+                <td><input type="text" name="last name" maxlength="50" placeholder="dhiman" />
+                    [max 50 characters allowed]
+                </td>
+            </tr>
+
+            <tr>
+                <td>email ID</td>
+                <td><input type="text" name="email ID" maxlength="100" placeholder="dhimanrohit070@gmail.com" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>mobile number</td>
+                <td><input type="text" name="mobile number" maxlength="10" placeholder="8219274310" />
+                    [10 digit allowed]
+                </td>
+            </tr>
+
+            <tr>
+                <td>gender</td>
+                <td><input type="radio" name="gender" value="male" />male
+                    <input type="radio" name="gender" value="female" />female
+                </td>
+            </tr>
+
+            <tr>
+                <td>date of birth {DOB}</td>
+                <td>
+                    <select name="birthday" id="birthday_day">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select name="birthday" id="birthday month">
+                        <option value="january">january</option>
+                        <option value="februrary">februrary</option>
+                        <option value="march">march</option>
+                        <option value="april">april</option>
+                        <option value="may">may</option>
+                        <option value="june">june</option>
+                        <option value="july">july</option>
+                        <option value="august">august</option>
+                        <option value="september">september</option>
+                        <option value="octuber">octuber</option>
+                        <option value="november">november</option>
+                        <option value="december">december</option>
+                    </select>
+
+                    <select name="birthday_year" id="birthday_year">
+                        <option value="1997">1997</option>
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                        <option value="2005">2005</option>
+                        <option value="2006">2006</option>
+                    </select>
+
+                </td>
+            <tr>
+                <td>address</td>
+                <td><textarea name="address" id="address" cols="30"
+                        rows="4">VPO MUHAL TEH.DEHRA DISTT KANGRA HP</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>city</td>
+                <td><input type="text" name="city" placeholder="dehra">
+                    (max characters 50 allowed)</td>
+            </tr>
+            <tr>
+                <td>pincode</td>
+                <td><input type="text" name="pincode" placeholder="177117"></td>
+            </tr>
+            <tr>
+                <td>state</td>
+                <td><input type="text" name="state" placeholder="himachal pradesh"></td>
+            </tr>
+            <tr>
+                <td>country</td>
+                <td><input type="text" name="country" placeholder="india"></td>
+            </tr>
+            <tr>
+                <td>hobbies</td>
+                <td>
+                    drawing
+                    <input type="checkbox" name="drawing" value="drawing"><br><br>
+                    singing
+                    <input type="checkbox" name="singing" value="singing"><br><br>
+                    dancing
+                    <input type="checkbox" name="dancing" value="dancing"><br><br>
+                    others
+                    <input type="checkbox" name="other" value="other">
+                </td>
+            </tr>
+            <tr>
+                <td>qualification</td>
+                <td>
+                    <table>
+                        <tr>
+                            <td align="center">sl.no</td>
+                            <td align="center">examination</td>
+                            <td align="center">board</td>
+                            <td align="center">percentage</td>
+                            <td align="center">year of passing</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>class x</td>
+                            <td><input type="text" name="class x_board" maxlength="30"></td>
+                            <td><input type="text" name="class x_percentage" maxlength="30"></td>
+                            <td><input type="text" name="class x_year of passing" maxlength="30"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>class +2</td>
+                            <td><input type="text" name="Class+2_Board" maxlength="30" /></td>
+                            <td><input type="text" name="Class+2_Percentage" maxlength="30" /></td>
+                            <td><input type="text" name="Class+2_YrOfPassing" maxlength="30" /></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>graduation</td>
+                            <td><input type="text" name="graduation_Board" maxlength="30" /></td>
+                            <td><input type="text" name="graduation_Percentage" maxlength="30" /></td>
+                            <td><input type="text" name="graduation_YrOfPassing" maxlength="30" /></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>masters</td>
+                            <td><input type="text" name="masters_Board" maxlength="30" /></td>
+                            <td><input type="text" name="masters_Percentage" maxlength="30" /></td>
+                            <td><input type="text" name="masters_YrOfPassing" maxlength="30" /></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>courses<br>applied for</td>
+                <td>
+                    <input type="radio" name="courses" value="BCA" /> BCA
+                    <input type="radio" name="courses" value="B.SC" /> B.Sc
+                    <input type="radio" name="courses" value="B.com" />B.com
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                </td>
+            </tr>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
